@@ -11,12 +11,21 @@ body {
   line-height: 1.5;
 }
 
-.interface {
+header {
   background: rgba(196, 196, 196, 0.75);
-  padding-left: 217px;
-  padding-right: 201px;
   margin-bottom: 64px;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.navigation__wrapper {
+  width: 1025px;
   height: 70px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -66,10 +75,13 @@ body {
   color: #616161;
 }
 
-.products-wrapper {
+main {
+  margin-bottom: 115px;
+}
+
+.products__wrapper {
   width: 1025px;
   margin: 0 auto;
-  margin-bottom: 115px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -195,7 +207,8 @@ body {
   fill: #ecf440;
 }
 
-footer.interface {
+footer {
+  background-color: rgba(196, 196, 196, 0.75);
   margin-bottom: 0;
 }
 
