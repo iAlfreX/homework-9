@@ -17,7 +17,7 @@ header {
 }
 
 .container {
-  width: 1055px;
+  width: 1025px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -88,7 +88,7 @@ main {
 }
 
 .product:not(:nth-child(3n)) {
-  margin-right: 70px;
+  margin-right: 55px;
 }
 
 .product:not(:nth-last-child(-n + 3)) {
